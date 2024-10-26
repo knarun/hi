@@ -1,0 +1,71 @@
+.your-project {
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.flow-chart-section, .components-section, .team-section, .status-section {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #bdc3c7;
+  padding: 12px;
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+table th {
+  background-color: #34495e;
+  color: #fff;
+  font-weight: 700;
+}
+
+table td a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #34495e;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.status-section p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.status-section p.completed {
+  color: #2ecc71;
+}
+
+.status-section p.ongoing {
+  color: #f39c12;
+}

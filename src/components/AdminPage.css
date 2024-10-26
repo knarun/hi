@@ -1,0 +1,88 @@
+.admin-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-page h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .admin-page h3 {
+    font-size: 22px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .admin-page ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .admin-page li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-page div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .admin-page p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Admin Actions Container */
+  .admin-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Button styles */
+  .admin-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Approve Button */
+  .approve-btn {
+    background-color: #28a745;
+  }
+  
+  .approve-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Reject Button */
+  .reject-btn {
+    background-color: #dc3545;
+  }
+  
+  .reject-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Admin Action Status */
+  .status {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
